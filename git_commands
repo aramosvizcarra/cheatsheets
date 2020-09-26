@@ -1,0 +1,19 @@
+git init ==> add a new repo
+git add <file> ==> add a file
+git status ==> Stagin area
+git commit
+git push ==> update remote from local
+git pull ==> update local from remote
+git clone ==> copy remote repo into local folder
+git remote add origin git@github.com:username/new_repo ==> origin is a convention not part of the command. origin is the name of the remote original repo
+git push -u origin master
+
+https://www.datree.io/resources/git-error-fatal-remote-origin-already-exists
+
+git remote set-url origin https://github.com/your/repository ==> update origin repo next 2 command into one
+
+git remote --verbose ==> list origin repo url (github url repo)
+git remote remove  ==> remove current origin repo (github url repo)
+git remote add origin https://github.com/username/remote-repository ==> add origin repo
+
+
