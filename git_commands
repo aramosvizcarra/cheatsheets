@@ -1,6 +1,6 @@
 git init ==> add a new repo
 git add <file> ==> add a file
-git status ==> Stagin area
+git status ==> Staging area
 git commit
 git push ==> update remote from local
 git pull ==> update local from remote
@@ -16,4 +16,31 @@ git remote --verbose ==> list origin repo url (github url repo)
 git remote remove  ==> remove current origin repo (github url repo)
 git remote add origin https://github.com/username/remote-repository ==> add origin repo
 
+https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
 
+##checkout a project
+git clone https://github.com/aramosvizcarra/cheatsheets.git
+
+## Commit changes
+## First stage then commit
+git status ==> will tel me to add the changes if they are new
+git add <file>
+git commit -m "description"
+git push
+
+## Add credentials
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+## Add a branch
+git checkout -b amend-my-name
+Switched to a new branch 'amend-my-name'
+
+## Show local branches:
+git branch
+
+## You can switch between local branches using git checkout. To switch back to the master branch:
+git checkout master
+
+## You can abandon changes in a couple of ways. The recommended one is:
+git checkout <file>
